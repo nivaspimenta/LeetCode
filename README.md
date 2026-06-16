@@ -1,3 +1,3 @@
-# LeetCode---C-Sharp
+# LeetCode
 LeetCode Problems
 
