@@ -1,7 +1,7 @@
 ﻿using LeetCode.Easy;
 
-var solution = new PalindromeNumber();
+var solution = new RomanToInteger();
 
-int number = 1012;
+string roman = "MCMXCIV";
 
-Console.WriteLine($"Input: {number} \nOutput: {solution.IsPalindrome(number)}");
+Console.WriteLine($"Roman: {roman} \nNumber: {solution.RomanToInt(roman)}");
