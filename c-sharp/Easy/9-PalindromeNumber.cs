@@ -56,9 +56,13 @@ namespace LeetCode.Easy
 
 -- Paste on the program.cs --
 
-using LeetCode.Easy;
+using LeetCode.Easy; // Normally is present on the Program.cs
 
-var solution = new PalindromeNumber());
+var solution = new PalindromeNumber();
+
+int number = 1012;
+
+Console.WriteLine($"Input: {number} \nOutput: {solution.IsPalindrome(number)}");
 
 
 */
