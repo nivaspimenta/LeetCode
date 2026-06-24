@@ -1,0 +1,15 @@
+/workspaces/LeetCode/c-sharp/bin/Debug/net10.0/c-sharp
+/workspaces/LeetCode/c-sharp/bin/Debug/net10.0/c-sharp.deps.json
+/workspaces/LeetCode/c-sharp/bin/Debug/net10.0/c-sharp.runtimeconfig.json
+/workspaces/LeetCode/c-sharp/bin/Debug/net10.0/c-sharp.dll
+/workspaces/LeetCode/c-sharp/bin/Debug/net10.0/c-sharp.pdb
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.AssemblyInfoInputs.cache
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.AssemblyInfo.cs
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.csproj.CoreCompileInputs.cache
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.sourcelink.json
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.dll
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/refint/c-sharp.dll
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.pdb
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/c-sharp.genruntimeconfig.cache
+/workspaces/LeetCode/c-sharp/obj/Debug/net10.0/ref/c-sharp.dll
