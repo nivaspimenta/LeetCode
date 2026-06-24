@@ -1,7 +1,7 @@
 ﻿using LeetCode.Easy;
 
-var solution = new TwoSumSolution();
+var solution = new PalindromeNumber();
 
-int[] result = solution.TwoSum(new int[] {2, 2, 3, 4, 5}, 9);
+int number = 1012;
 
-Console.WriteLine($"Output: [{String.Join(", ", result)}]");
+Console.WriteLine($"Input: {number} \nOutput: {solution.IsPalindrome(number)}");
