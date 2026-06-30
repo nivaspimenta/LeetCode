@@ -55,7 +55,7 @@ namespace LeetCode.Easy
         public int RomanToInt(string s)
         {
             //put all in Upper case
-            s.ToUpper();
+            s = s.ToUpper();
 
             char[] split = s.ToCharArray();
 
@@ -69,28 +69,70 @@ namespace LeetCode.Easy
                         number += 1;
                         break;
                     case 'V':
-                        number += ((i - 1) >= 0 && split[i - 1] == 'I') ? 4 : 5;
-                        --i;
+                        if ((i - 1) >= 0 && split[i - 1] == 'I')
+                        {
+                            number += 4;
+                            --i;
+                        }
+                        else
+                        {
+                            number += 5;
+                        }
                         break;
                     case 'X':
-                        number += ((i - 1) >= 0 && split[i - 1] == 'I') ? 9 : 10;
-                        --i;
+                        if ((i - 1) >= 0 && split[i - 1] == 'I')
+                        {
+                            number += 9;
+                            --i;
+                        }
+                        else
+                        {
+                            number += 10;
+                        }
                         break;
                     case 'L':
-                        number += ((i - 1) >= 0 && split[i - 1] == 'X') ? 40 : 50;
-                        --i;
+                        if ((i - 1) >= 0 && split[i - 1] == 'X')
+                        {
+                            number += 40;
+                            --i;
+                        }
+                        else
+                        {
+                            number += 50;
+                        }
                         break;
                     case 'C':
-                        number += ((i - 1) >= 0 && split[i - 1] == 'X') ? 90 : 100;
-                        --i;
+                        if ((i - 1) >= 0 && split[i - 1] == 'X')
+                        {
+                            number += 90;
+                            --i;
+                        }
+                        else
+                        {
+                            number += 100;
+                        }
                         break;
                     case 'D':
-                        number += ((i - 1) >= 0 && split[i - 1] == 'C') ? 400 : 500;
-                        --i;
+                        if ((i - 1) >= 0 && split[i - 1] == 'C')
+                        {
+                            number += 400;
+                            --i;
+                        }
+                        else
+                        {
+                            number += 500;
+                        }
                         break;
                     case 'M':
-                        number += ((i - 1) >= 0 && split[i - 1] == 'C') ? 900 : 1000;
-                        --i;
+                        if ((i - 1) >= 0 && split[i - 1] == 'C')
+                        {
+                            number += 900;
+                            --i;
+                        }
+                        else
+                        {
+                            number += 1000;
+                        }
                         break;
                 }
             }

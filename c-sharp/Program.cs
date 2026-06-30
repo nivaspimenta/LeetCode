@@ -1,7 +1,7 @@
 ﻿using LeetCode.Easy;
 
-var solution = new RomanToInteger();
+var solution = new LongestCommonPref();
 
-string roman = "MCMXCIV";
+string[] strg = ["abc"];
 
-Console.WriteLine($"Roman: {roman} \nNumber: {solution.RomanToInt(roman)}");
+Console.WriteLine($"Array: [ {string.Join(", ", strg)} ] \nPrefix: {solution.LongestCommonPrefix(strg)}");
